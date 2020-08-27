@@ -1,0 +1,157 @@
+header{
+   border-radius: 4px; 
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: violet;
+}
+
+#logo{
+    height: 50px;
+    width: 70px;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+#no{
+    margin-left: 200px;
+    
+}
+#no, #mail, form{
+    padding:0, 10px;
+    
+    position: relative;
+    bottom: 20px;
+    display: inline-block;
+}
+i{
+    color: black;
+    font-size:24px
+}
+#mail, #search{
+    margin-left: 30px;
+}
+#search{
+    height: 20px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+#srcbtn{
+    height: 30px;
+    margin-left: -10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    
+}
+
+/* ------------Navigation bar start---------------*/
+
+ul{
+    margin:5px;
+    padding: 0;
+    list-style: none;
+  
+}
+
+ul li{
+    background-color: darksalmon;
+    border-radius: 4px;
+    width: 235px;
+    height: 40px;
+    float: left;
+    opacity: .9;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+   
+}
+
+ul li a:hover{
+    background-color: indigo;
+    border-radius: 4px;
+    transition-duration: 1s;
+    color: white;
+}
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    margin: 2px;
+    display: block;
+    color: white;
+    transition:0s 180s;
+}
+
+.navbar{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+/* ------------Navigation bar End---------------*/
+
+/*------------------------Header body End---------------*/
+
+/*------------------------main body start---------------*/
+main{
+
+    height: 700px;
+    background-image: url('un.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*-----------------------div section start----------------*/
+.section{
+    text-align: center; 
+    margin-top: 100px; 
+}
+.sec1, .sec2, .sec3{
+    margin: 10px;
+    margin-top: 100px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: inline-block;
+    color: whitesmoke;
+
+} 
+
+.sec1{
+    background-color: blueviolet;
+   
+}
+.sec2{
+    background-color: darkolivegreen;
+}
+.sec3{
+    background-color:dodgerblue;
+}
+
+/*----------------footer started-------------*/
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    border-radius: 4px;
+}

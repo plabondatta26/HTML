@@ -1,0 +1,87 @@
+body{
+    background-color: aqua;
+   
+}
+
+nav{
+    margin:0;
+    padding: 0;
+    background-color: greenyellow;
+    border-radius: 10px;
+    height: 50px;
+}
+ul{
+    position: relative;
+    top: 15px;
+    left: auto;
+}
+
+li{
+    margin: 10px;
+    margin-right: 50px;
+    padding: 10px;
+    display: inline; 
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+     
+}
+
+li:hover, a:hover, li:active, a:active{
+    background-color: thistle;
+    color: red;
+    border-radius: 10px;  
+}
+main{
+    height: 700px;
+    background-color: darkcyan;
+    border-radius: 20px;
+    margin:10px;
+}
+h2{
+    margin-left: 50px;
+    padding: 10px;
+}
+div{
+    padding: 0px 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+
+input[type=text],input[type=password], select{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 10px 0px;
+    border-radius: 6px;
+    border-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    width: 25%;
+    height: 40px;
+    border-radius: 6px;
+    border-style: none;
+    float: right;    
+}
+
+input[type=submit]:hover{
+    background-color: lightblue;
+   
+}
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    border-radius: 4px;
+}
